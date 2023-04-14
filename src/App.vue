@@ -84,7 +84,7 @@ const error = computed(() => {
 <input type="password" v-model="senhaconfirmaçao" placeholder="Confirma sua senha" minlength="1" required>
 <input type="text" v-model="endereco" placeholder="Digite seu endereço"  required>
 <input type="text" v-model="cidade" placeholder="Digite sua cidade"  required>
-<input type="text" v-model="linguagem" placeholder="Digite sua linguagem de programação"  required>
+<input type="text" v-model="linguagem" placeholder="Linguagem de programação"  required>
 
 <textarea v-model="biografia" cols="27" rows="10"></textarea>
 
